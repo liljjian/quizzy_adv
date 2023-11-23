@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/auth_controller.dart';
-import 'package:quizzle/firebase/firebase_configs.dart';
-import 'package:quizzle/models/models.dart';
-import 'package:quizzle/screens/screens.dart';
-import 'package:quizzle/utils/logger.dart';
-import 'package:quizzle/widgets/dialogs/dialogs.dart';
+import 'package:quizzy/controllers/auth_controller.dart';
+import 'package:quizzy/firebase/firebase_configs.dart';
+import 'package:quizzy/models/models.dart';
+import 'package:quizzy/screens/screens.dart';
+import 'package:quizzy/utils/logger.dart';
+import 'package:quizzy/widgets/dialogs/dialogs.dart';
 
 import 'quiz_papers_controller.dart';
 

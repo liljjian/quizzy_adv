@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:get/get.dart';
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/widgets/widgets.dart';
+import 'package:quizzy/configs/configs.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/widgets/widgets.dart';
 
 import 'custom_drawer.dart';
 
@@ -25,9 +25,9 @@ class HomeScreen extends GetView<MyDrawerController> {
         borderRadius: 50.0,
         showShadow: true,
         angle: 0.0,
-        style: DrawerStyle.DefaultStyle,
+        style: DrawerStyle.defaultStyle,
         menuScreen: const CustomDrawer(),
-        backgroundColor: Colors.white.withOpacity(0.5),
+        menuBackgroundColor: Colors.white.withOpacity(0.5),
         slideWidth: MediaQuery.of(context).size.width * 0.6,
         mainScreen: Container(
           decoration: BoxDecoration(gradient: mainGradient(context)),

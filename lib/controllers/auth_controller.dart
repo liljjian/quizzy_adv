@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/screens/screens.dart' show AppIntroductionScreen, HomeScreen, LoginScreen;
-import 'package:quizzle/utils/utils.dart';
-import 'package:quizzle/widgets/widgets.dart';
+import 'package:quizzy/firebase/references.dart';
+import 'package:quizzy/screens/screens.dart' show AppIntroductionScreen, HomeScreen, LoginScreen;
+import 'package:quizzy/utils/utils.dart';
+import 'package:quizzy/widgets/widgets.dart';
 
 class AuthController extends GetxController {
   @override

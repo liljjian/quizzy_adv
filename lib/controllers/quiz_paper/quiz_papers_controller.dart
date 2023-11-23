@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/auth_controller.dart';
-import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/models/models.dart' show QuizPaperModel;
-import 'package:quizzle/screens/screens.dart' show QuizeScreen;
-import 'package:quizzle/services/firebase/firebasestorage_service.dart';
-import 'package:quizzle/utils/logger.dart';
+import 'package:quizzy/controllers/auth_controller.dart';
+import 'package:quizzy/firebase/references.dart';
+import 'package:quizzy/models/models.dart' show QuizPaperModel;
+import 'package:quizzy/screens/screens.dart' show QuizeScreen;
+import 'package:quizzy/services/firebase/firebasestorage_service.dart';
+import 'package:quizzy/utils/logger.dart';
 
 class QuizPaperController extends GetxController {
   @override

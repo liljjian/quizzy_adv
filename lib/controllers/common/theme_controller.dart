@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/utils/logger.dart';
+import '../../configs/configs.dart';
+import '../../utils/logger.dart';
+
 
 class ThemeController extends GetxController {
   late ThemeData _darkTheme;

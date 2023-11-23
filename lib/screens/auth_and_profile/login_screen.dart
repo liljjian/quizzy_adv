@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/controllers/auth_controller.dart';
-import 'package:quizzle/widgets/widgets.dart';
+import 'package:quizzy/configs/configs.dart';
+import 'package:quizzy/controllers/auth_controller.dart';
+import 'package:quizzy/widgets/widgets.dart';
 
 class LoginScreen extends GetView<AuthController> {
   const LoginScreen({Key? key}) : super(key: key);

@@ -2,12 +2,12 @@
 import 'package:easy_separator/easy_separator.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/controllers/quiz_paper/quiz_papers_controller.dart';
-import 'package:quizzle/models/quiz_paper_model.dart';
-import 'package:quizzle/screens/screens.dart';
-import 'package:quizzle/widgets/widgets.dart';
+import 'package:quizzy/configs/configs.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/controllers/quiz_paper/quiz_papers_controller.dart';
+import 'package:quizzy/models/quiz_paper_model.dart';
+import 'package:quizzy/screens/screens.dart';
+import 'package:quizzy/widgets/widgets.dart';
 
 class QuizPaperCard extends GetView<QuizPaperController> {
   const QuizPaperCard({Key? key, required this.model}) : super(key: key);

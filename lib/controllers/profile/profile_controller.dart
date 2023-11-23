@@ -1,11 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/models/models.dart' show QuizPaperModel, RecentTest;
-import 'package:quizzle/services/firebase/firebasestorage_service.dart';
-import 'package:quizzle/utils/logger.dart';
+import 'package:quizzy/models/models.dart' show QuizPaperModel, RecentTest;
+import '../../services/firebase/firebasestorage_service.dart';
+import '../auth_controller.dart';
+
 
 class ProfileController extends GetxController {
   @override

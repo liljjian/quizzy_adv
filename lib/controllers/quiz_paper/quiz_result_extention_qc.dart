@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/services/notification/notification_service.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/firebase/references.dart';
+import 'package:quizzy/services/notification/notification_service.dart';
 
 extension QuizeResult on QuizController {
   int get correctQuestionCount => allQuestions

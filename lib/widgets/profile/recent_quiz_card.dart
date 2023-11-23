@@ -1,8 +1,8 @@
 import 'package:easy_separator/easy_separator.dart';
 import 'package:flutter/material.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/models/models.dart';
-import 'package:quizzle/widgets/widgets.dart';
+import 'package:quizzy/configs/configs.dart';
+import 'package:quizzy/models/models.dart';
+import 'package:quizzy/widgets/widgets.dart';
 
 class RecentQuizCard extends StatelessWidget {
   const RecentQuizCard({Key? key, required this.recentTest}) : super(key: key);

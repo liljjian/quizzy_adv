@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizzle/configs/configs.dart';
+import 'package:quizzy/configs/configs.dart';
 
 class CountdownTimer extends StatelessWidget {
   const CountdownTimer({Key? key, this.color, required this.time})

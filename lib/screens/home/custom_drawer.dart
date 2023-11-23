@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/configs/configs.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/screens/auth_and_profile/profile_screen.dart';
+import 'package:quizzy/configs/configs.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/screens/auth_and_profile/profile_screen.dart';
 
 class CustomDrawer extends GetView<MyDrawerController> {
   const CustomDrawer({Key? key}) : super(key: key);

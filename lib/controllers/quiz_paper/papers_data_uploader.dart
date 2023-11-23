@@ -4,9 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/firebase/firebase_configs.dart';
-import 'package:quizzle/models/quiz_paper_model.dart';
-import 'package:quizzle/utils/logger.dart';
+import 'package:quizzy/models/quiz_paper_model.dart';
+import 'package:quizzy/utils/logger.dart';
 
 const String folderName = '/assets/DB/papers';
 

@@ -1,10 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/auth_controller.dart';
-import 'package:quizzle/firebase/loading_status.dart';
-import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/models/models.dart';
-import 'package:quizzle/utils/logger.dart';
+import 'package:quizzy/controllers/auth_controller.dart';
+import '../../models/models.dart';
+import '../../utils/logger.dart';
+
 
 class LeaderBoardController extends GetxController {
   final leaderBoard = <LeaderBoardData>[].obs;

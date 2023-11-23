@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/firebase/firebase_configs.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/firebase/firebase_configs.dart';
 
 // ignore: must_be_immutable
 class DataUploaderScreen extends StatelessWidget {

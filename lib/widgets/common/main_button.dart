@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizzle/configs/configs.dart';
+import 'package:quizzy/configs/configs.dart';
 
 class MainButton extends StatelessWidget {
   const MainButton({

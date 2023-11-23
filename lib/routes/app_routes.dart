@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:quizzle/controllers/controllers.dart';
-import 'package:quizzle/screens/screens.dart';
+import 'package:quizzy/controllers/controllers.dart';
+import 'package:quizzy/screens/screens.dart';
 
 class AppRoutes {
   static List<GetPage> pages() => [

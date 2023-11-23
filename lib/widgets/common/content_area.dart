@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizzle/configs/configs.dart';
+import 'package:quizzy/configs/configs.dart';
 
 class ContentArea extends StatelessWidget {
   const ContentArea({Key? key, required this.child, this.addPadding = true, })
